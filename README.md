@@ -219,3 +219,6 @@ yarn add @base-org/account
   1. Fork this repo and clone it
   1. From the root dir run `yarn install`
   1. From the root dir run `yarn dev`
+
+## Contributing
+PRs welcome!
