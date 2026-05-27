@@ -322,7 +322,7 @@ export default function ProlinkPlayground() {
     } catch (_error) {
       toast({
         title: 'Failed to copy',
-        description: 'Please copy the payload manually',
+        description: 'Please copy the payload mannually',
         status: 'error',
         duration: 3000,
       });
@@ -342,7 +342,7 @@ export default function ProlinkPlayground() {
       } catch (_error) {
         toast({
           title: 'Failed to copy',
-          description: 'Please copy the link manually',
+          description: 'Please copy the link mannually',
           status: 'error',
           duration: 3000,
         });
@@ -391,7 +391,7 @@ export default function ProlinkPlayground() {
     } catch (_error) {
       toast({
         title: 'Failed to copy',
-        description: 'Please copy the result manually',
+        description: 'Please copy the result mannually',
         status: 'error',
         duration: 3000,
       });
