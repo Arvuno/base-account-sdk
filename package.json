@@ -24,5 +24,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4"
   },
-  "packageManager": "yarn@4.8.1"
+  "packageManager": "yarn@4.8.1",
+  "description": "Account SDK for Base",
+  "homepage": "https://github.com/base-org/base-account-sdk#readme"
 }
