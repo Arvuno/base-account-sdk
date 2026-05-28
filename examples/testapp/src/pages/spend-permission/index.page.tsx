@@ -188,7 +188,7 @@ export default function SpendPermissionPage() {
         setCurrentChainId(parseChainIdHex(chainIdHex));
       }
     } catch (error) {
-      // Silently fail - user can manually connect
+      // Silently fail - user can mannually connect
       console.error('Failed to check existing connection:', error);
     }
   }, [provider]);

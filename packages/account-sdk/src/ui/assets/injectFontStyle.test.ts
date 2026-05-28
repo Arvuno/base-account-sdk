@@ -47,7 +47,7 @@ describe('injectFontStyle', () => {
   });
 
   it('returns early if style already exists', () => {
-    // Manually add a style element first
+    // Mannually add a style element first
     const existingStyle = document.createElement('style');
     existingStyle.setAttribute('base-sdk-font', 'BaseSans-Regular');
     existingStyle.textContent = 'existing content';

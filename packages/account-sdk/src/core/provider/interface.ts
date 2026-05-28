@@ -92,7 +92,7 @@ export type SubAccountOptions = {
   /**
    * Controls when sub accounts are created.
    * - 'on-connect': Sub account is automatically created when connecting to the wallet
-   * - 'manual': Sub account must be manually created via wallet_addSubAccount
+   * - 'manual': Sub account must be mannually created via wallet_addSubAccount
    * @default 'manual'
    */
   creation?: SubAccountCreationMode;
