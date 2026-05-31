@@ -1,10 +1,20 @@
+# Manual publish workflow for @base-org/account.
+#
+# This is the canonical workflow tied to the npm Trusted Publisher entry
+# for @base-org/account (workflow filename: release-account.yml,
+# environment: publish). The OIDC token minted by this workflow is the
+# only one npm will accept for publishing this package.
+#
+# Use this workflow to publish a specific version that was prepared (and
+# already tagged on master) by release-please but not yet pushed to npm,
+# or for any out-of-band publish.
 name: Release Account
 
 on:
   workflow_dispatch:
     inputs:
       packageVersion:
-        description: "The version to publish in MAJOR.MINOR.PATCH format"
+        description: "The version to publish in MAJOR.MINOR.PATCH format (e.g., 2.6.0)"
         required: true
         default: ""
 

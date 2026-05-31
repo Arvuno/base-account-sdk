@@ -1,6 +1,6 @@
 {
   "name": "@base-org/account",
-  "version": "2.5.3",
+  "version": "2.5.6",
   "description": "Base Account SDK",
   "keywords": [
     "base",
@@ -113,6 +113,9 @@
     "README.md",
     "LICENSE"
   ],
+  "engines": {
+    "node": ">=20"
+  },
   "sideEffects": false,
   "repository": "https://github.com/base/account-sdk.git",
   "author": "Base",
@@ -134,7 +137,7 @@
     "size": "size-limit"
   },
   "dependencies": {
-    "@coinbase/cdp-sdk": "^1.0.0",
+    "@coinbase/cdp-sdk": "^1.48.3",
     "brotli-wasm": "^3.0.0",
     "clsx": "1.2.1",
     "eventemitter3": "5.0.1",
